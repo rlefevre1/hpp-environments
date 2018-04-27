@@ -8,6 +8,24 @@
 		<link name="upper_drawer_front" />
 	</handle>
 
+	<!-- Touchpoints handles -->
+	<handle name="touchpoint_left_front" clearance="0">
+		<position> 0 -0.75 0.7 0.707106781 0 0 0.707106781 </position>
+		<link name="world" />
+	</handle>
+	<handle name="touchpoint_left_top" clearance="0">
+		<position> 0 -0.65 0.725 0.707106781 0 0.707106781 0 </position>
+		<link name="world" />
+	</handle>
+	<handle name="touchpoint_right_front" clearance="0">
+		<position> 1 -0.75 0.7 0.707106781 0 0 0.707106781 </position>
+		<link name="world" />
+	</handle>
+	<handle name="touchpoint_right_side" clearance="0">
+		<position> 1.25 -0.65 0.7 0 0 0 1 </position>
+		<link name="world" />
+	</handle>
+
 	<disable_collisions link1="board" link2="upper_drawer_background" />
 	<disable_collisions link1="board" link2="upper_drawer_front" />
 	<disable_collisions link1="board" link2="upper_drawer_left" />
