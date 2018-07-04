@@ -9,19 +9,19 @@
 	</handle>
 
 	<!-- Touchpoints handles -->
-	<handle name="touchpoint_right_top" clearance="0">
+	<handle name="touchpoint_right_top" clearance="0.1">
 		<position> 0.7 -0.65 0.725 0.707106781 0 0.707106781 0 </position>
 		<link name="world" />
 	</handle>
-	<handle name="touchpoint_right_front" clearance="0">
+	<handle name="touchpoint_right_front" clearance="0.1">
 		<position> 0.7 -0.75 0.7 0.707106781 0 0 0.707106781 </position>
 		<link name="world" />
 	</handle>
-	<handle name="touchpoint_left_front" clearance="0">
+	<handle name="touchpoint_left_front" clearance="0.1">
 		<position> 0 -0.75 0.7 0.707106781 0 0 0.707106781 </position>
 		<link name="world" />
 	</handle>
-	<handle name="touchpoint_left_drawer" clearance="0">
+	<handle name="touchpoint_left_drawer" clearance="0.1">
 		<position> 0.366 -0.65 0.55 1 0 0 0 </position>
 		<link name="world" />
 	</handle>
